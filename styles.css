@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Arvo";
+  src: url("fonts/Arvo-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/Nunito-Bold.ttf");
+}
+
+body {
+  max-width: 600px;
+  margin: auto;
+  height: 100vh;
+  height: -webkit-fill-available;
+  height: fill-available;
+  position: relative;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+html {
+  height: -webkit-fill-available;
+  height: fill-available;
+  background-color: white;
+}
+
+#header {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Nunito";
+  font-size: 16px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+.alignLeft {
+  float: left;
+}
+
+.alignRight {
+  float: right;
+}
+
+#bottom {
+  height: 120px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#mainIcons {
+  position: absolute;
+  bottom: 120px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.line-break {
+  width: 100%;
+}
+
+button {
+  border: none;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainIcons button {
+  margin-bottom: 40px;
+}
+
+#HSC {
+  padding-top: 15vh;
+  text-align: center;
+}
+
+#HSCclockDisplay {
+  font-family: "Arvo";
+}
+
+#HSCclock {
+  font-size: min(22vw, 116px);
+}
+
+#HSCsession {
+  font-size: min(11vw, 58px);
+}
+
+#HSCquote {
+  font-family: "Nunito";
+  font-size: min(6vw, 26px);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+iframe {
+  display: none;
+}
